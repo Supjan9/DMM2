@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infrastruktur 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Test 1</a></li>
+            <li><a href="test2.html" class="active">Test 2</a></li>
+            <li><a href="test3.html">Test 3</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>DMM 2</h1>
+
+        <div id="quiz"></div>
+
+        <button class="submit-btn" onclick="submitQuiz()">Finish Test</button>
+
+        <!-- RESULTS (only once!) -->
+        <div class="results" id="results">
+            <h2>Quiz Results</h2>
+            <div class="score" id="score"></div>
+            <p id="feedback"></p>
+        </div>
+    </div>
+
+    <script src="quiz_2.js" defer></script>
+
+</body>
+
+</html>
